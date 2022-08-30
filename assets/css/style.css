@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: #ffffff;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 100%;
+  padding: 8px;
+}
+.cabecalho {
+  margin: 0 auto;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.titulo {
+  font-size: 20pt;
+  color: #77601b;
+}
+
+.principal {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.dadosCliente {
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 95%;
+}
+
+.novoMovel {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  width: 100px;
+  border-bottom: 1px solid #77601b;
+}
+input:hover,
+textarea:hover {
+  background-color: #222222;
+}
+
+input:focus,
+textarea:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  border-bottom: 1px solid #77601b;
+}
+
+.adicionarAmbiente {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: #77601b;
+  padding-top: 5px;
+}
+
+textarea {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #77601b;
+  width: 40%;
+  height: 150px;
+}
+
+.btnAdicionar {
+  width: 150px;
+  background-color: transparent;
+  border: 1px solid #77601b;
+  color: #77601b;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+.btnAdicionar:hover {
+  background-color: #77601b;
+  color: #ffffff;
+}
+
+.linhaDiv {
+  width: 100%;
+}
+
+.copyright,
+.btnAdicionar {
+  display: flex;
+  justify-content: center;
+  color: #77601b;
+}
