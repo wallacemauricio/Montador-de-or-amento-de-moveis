@@ -15,7 +15,7 @@ function criaDiv() {
 function criaNovosElementos() {
   let pegaPai = document.querySelector(".novoMovel");
   let novaLabel = document.createElement("label");
-  let textoNovaLabel1 = document.createTextNode("ambiente:");
+  let textoNovaLabel1 = document.createTextNode("Ambiente:");
   novaLabel.appendChild(textoNovaLabel1);
   pegaPai.appendChild(novaLabel);
   novaLabel.classList.add("Ambiente");

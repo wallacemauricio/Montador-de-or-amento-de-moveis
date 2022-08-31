@@ -13,25 +13,44 @@
       <h1 class="titulo">Orçamento Dos Moveis Planejados</h1>
     </header>
 
-    <main class="principal">
-      <hr />
-      <div class="dadosCliente">
+    <hr class="linhaDiv" />
+    <div class="dadosCliente">
+      <div>
         <label for="cliente">Cliente:</label>
-        <input type="text" />
-
-        <label for="Contato">Contato:</label>
-        <input type="text" />
-
-        <label for="Bairro">Bairro:</label>
-        <input type="text" />
+        <input type="text" class="cliente" />
       </div>
-      <hr />
+      <div>
+        <label for="contato">Contato:</label>
+        <input type="text" class="contato" />
+      </div>
+      <div>
+        <label for="bairro">Bairro:</label>
+        <input type="text" class="bairro" />
+      </div>
+    </div>
+    <hr class="linhaDiv" />
 
+    <main class="principal">
       <button class="btnAdicionar">Adicionar móvel</button>
     </main>
 
+    <section class="orcamentoFinal">
+      <div class="valorTotal">
+        <label class="labTotal" for="">Valor Total:</label>
+        <input type="text" class="inpTotal" />
+      </div>
+    </section>
+
+    <section class="infosContent">
+      <img src="./assets/img/entrega.png" alt="" class="infos1" />
+
+      <img src="./assets/img/garantia.png" alt="" class="infos2" />
+
+      <img src="./assets/img/formas_de_pagamento.png" alt="" class="infos3" />
+    </section>
+
     <footer class="copyright">
-      <p>Copyright ©AraujoMarcenaria</p>
+      <p>Copyright ©Araujo Marcenaria</p>
     </footer>
 
     <script src="./assets/js/script.js"></script>
